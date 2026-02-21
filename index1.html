@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="box">
+    <h1>IMDb Sentiment Analysis</h1>
+    <p>Enter a movie review and check sentiment.</p>
+
+    <form method="POST">
+        <textarea name="text" placeholder="Type your review here..." required>{{ user_text }}</textarea>
+        <br>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if result %}
+        <div class="result">
+            <h2>Prediction:</h2>
+            <p>{{ result }}</p>
+        </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
