@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎬 IMDb Sentiment Analysis
+# IMDb Sentiment Analysis
 
 ### 🔍 AI-powered Movie Review Sentiment Classifier using Machine Learning & Natural Language Processing
 
